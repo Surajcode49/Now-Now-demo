@@ -12,20 +12,21 @@ export default function Hero() {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src={vid} // Replace with your video path
+        src={vid}
         autoPlay
         loop
         muted
-        controls
+        aria-label="Background video showcasing Now Now Inc services"
+        onError={(e) => console.error("Video failed to load", e)}
       ></video>
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="relative flex flex-col justify-center items-start h-full px-6 lg:px-12 text-left">
         <div className="w-full lg:w-1/2 xl:pl-12 sm:pr-2 mt-8">
           <h1 className="text-5xl sm:text-6xl text-white font-bold leading-tight mb-5">
-          Welcome to  <br />
-          Now Now Inc
+            Welcome to <br />
+            Now Now Inc
           </h1>
 
           <p className="font-light text-xl text-gray-300 leading-relaxed mb-16">

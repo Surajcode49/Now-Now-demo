@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from "../assets/images/hero/nownowlogo-DPwXecS-.webp"
+import React from "react";
+import logo from "../assets/images/hero/nownowlogo-DPwXecS-.webp";
+
 export default function BrandIcon() {
   return (
     <div>
-      <img 
+      <img
         src={logo}
-        alt="Logo" 
-        className="h-12 w-auto" 
+        alt="Now Now Logo"
+        className="h-12 w-auto"
+        onError={(e) => {
+          console.error("Failed to load logo image", e);
+          e.target.src = "https://www.nownowinc.com/assets/nownowlogo-DPwXecS-.webp"; // Fallback image
+        }}
       />
     </div>
   );
