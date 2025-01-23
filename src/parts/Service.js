@@ -9,15 +9,15 @@ import { Fade } from 'react-awesome-reveal';
 
 export default function Service({ data }) {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-[#231F4F]"> {/* Updated background color */}
       <div className="container mx-auto pt-20 pb-28">
         <Fade direction="right" triggerOnce>
-          <h1 className="text-5xl text-theme-blue text-center font-bold">Our Service</h1>
+          <h1 className="text-5xl text-white text-center font-bold">Our Service</h1> {/* Changed text color to white */}
         </Fade>
         <Fade direction="left" triggerOnce>
-          <p className="font-light text-lg text-black-900 text-center mb-12">
+          <p className="font-light text-lg text-gray-300 text-center mb-12">
             We are ready to scale up your business with our great service.
-          </p>
+          </p> {/* Changed text color to gray-300 for better visibility */}
         </Fade>
 
         <div className="grid grid-rows-3 px-10 gap-8 sm:grid-cols-3 sm:grid-rows-1 sm:gap-6 xl:gap-16">

@@ -1,22 +1,13 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable import/extensions */
-
 import React from 'react';
-
-import Button from '../elements/Button';
-
+import logo from "../assets/images/hero/nownowlogo-DPwXecS-.webp"
 export default function BrandIcon() {
   return (
-    <Button
-      className=""
-      type="link"
-      href="/"
-    >
-      <p className="text-theme-blue text-4xl font-medium ">
-        NOW 
-        <span className="text-theme-purple">NOW</span>
-      </p>
-    </Button>
+    <div>
+      <img 
+        src={logo}
+        alt="Logo" 
+        className="h-12 w-auto" 
+      />
+    </div>
   );
 }
