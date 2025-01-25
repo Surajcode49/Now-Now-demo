@@ -14,7 +14,7 @@ import Button from 'elements/Button';
 export default function PortfolioDetail({ data }) {
   if (data === null) {
     return (
-      <section className="container mx-auto">
+      <section className="container mx-auto bg-[#090C13]">
         <Fade bottom triggerOnce>
           <div className="flex flex-col w-full justify-center">
             <div className="flex w-full justify-center">

@@ -9,7 +9,7 @@ import Button from '../elements/Button';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-50 border-t border-gray-200 pb-6">
+    <div className="bg-gray-50 border-t bg-[#090C13] pb-6">
       <div className="container flex-col mx-auto ">
         <div className="flex flex-col sm:flex-row mt-8 justify-center">
           <div className="w-1/3 flex-col ml-16 mr-8">

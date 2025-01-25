@@ -21,7 +21,7 @@ export default function AllPortfolio({ data }) {
 
   return (
     <Fade bottom>
-      <section className="container mx-auto">
+      <section className="container mx-auto bg-[#090C13]">
 
         <Tabs className="flex flex-col px-4">
           <TabList>

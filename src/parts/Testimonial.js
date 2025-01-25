@@ -21,7 +21,7 @@ import 'swiper/css/pagination';
 
 export default function Testimonial({ data }) {
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto bg-[#090C13]">
       <Fade direction="up">
         <h1 className="text-5xl text-theme-blue text-center font-bold">Testimonials</h1>
       </Fade>
