@@ -15,7 +15,7 @@ export default function Service({ data }) {
         </Fade>
         <Fade direction="left" triggerOnce>
           <p className="font-light text-lg text-gray-300 text-center mb-12">
-            We are ready to scale up your business with our great service.
+            We are ready to scale up your business with our great service !
           </p>
         </Fade>
 
